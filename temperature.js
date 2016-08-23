@@ -33,7 +33,7 @@ const Form = React.createClass({
           </label>
           <label>
             Farenheit
-            <input type='radio' name='type' checked value='toCelsius'/>
+            <input type='radio' name='type' defaultChecked value='toCelsius'/>
           </label>
           <label>
             Celsuis
